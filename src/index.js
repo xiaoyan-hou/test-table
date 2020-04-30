@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import EditableTable from './components/table';
+import 'antd/dist/antd.css'; 
+
 
 ReactDOM.render(
-  <React.StrictMode>
+  <div>
     <App />
-  </React.StrictMode>,
+    <EditableTable />
+  </div>,
   document.getElementById('root')
 );
 
